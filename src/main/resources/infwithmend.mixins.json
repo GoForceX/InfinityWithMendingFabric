@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.irchat.infwithmend.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "InfinityEnchantmentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

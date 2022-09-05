@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "infwithmend",
+  "version": "${version}",
+
+  "name": "Infinity with Mending",
+  "description": "无限，但是经验修补",
+  "authors": [
+    "GoForceX"
+  ],
+
+  "license": "MIT License",
+  "icon": "assets/infwithmend/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.irchat.infwithmend.ModEntry"
+    ]
+  },
+  "mixins": [
+    "infwithmend.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
